@@ -1,7 +1,5 @@
-# Royal Portfolio
+# Kot-Jin Portfolio
 
-[main-link](https://royal-dev.herokuapp.com/)
+[main-link](https://kot-dev.herokuapp.com/)
 
-[first one](https://royal-rzaxanov.herokuapp.com/)
-
-[second one](https://royal-rz.herokuapp.com/)
+[first one](https://jindev.herokuapp.com/)
