@@ -50,7 +50,7 @@ class About extends React.Component{
                                             <div className="col-sm-6 col-md-7">
                                                 <div className="about-info">
                                                 <p><span class="title-s">Name: </span> <span>Jin Zheng</span></p>
-                                                <p><span class="title-s">Profile: </span> <span>CTO in KoT SAS</span></p>
+                                                <p><span class="title-s">Profile: </span> <span>Full-Stack Engineer</span></p>
                                                 <p><span class="title-s">Skype: </span> <span>live:.cid.12b0a37575b93ca3</span></p>
                                                 <p><span class="title-s">Email: </span> <span>jin.bestvictoria718@gmail.com</span></p>
                                                 <p><span class="title-s">Phone: </span> <span>(+86) 151 4231 0653</span></p>

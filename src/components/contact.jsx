@@ -101,7 +101,7 @@ class Contact extends React.Component{
                     <div className="row">
                     <div className="col-sm-12">
                         <div className="copyright-box">
-                        <p className="copyright">2020 &copy; Copyright <strong>Jin Zheng</strong>. All Rights Reserved</p>
+                        <p className="copyright">2021 &copy; Copyright <strong>Jin Zheng</strong>. All Rights Reserved</p>
                         </div>
                     </div>
                     </div>
