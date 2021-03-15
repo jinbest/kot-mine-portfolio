@@ -6,11 +6,11 @@ import Form from './form';
 
 const socialLinksData = [
     {
-        href: 'https://www.linkedin.com/in/kot-dev-6087b5201/',
+        href: 'https://www.linkedin.com/in/kot-jin/',
         name: 'linkedin',
     },
     {
-        href: 'https://github.com/gitexpert718/',
+        href: 'https://github.com/jinbest/',
         name: 'github',
     },
     {
@@ -101,7 +101,7 @@ class Contact extends React.Component{
                     <div className="row">
                     <div className="col-sm-12">
                         <div className="copyright-box">
-                        <p className="copyright">2021 &copy; Copyright <strong>Jin Zheng</strong>. All Rights Reserved</p>
+                        <p className="copyright">{new Date().getFullYear()} &copy; Copyright <strong>Jin Zheng</strong>. All Rights Reserved</p>
                         </div>
                     </div>
                     </div>

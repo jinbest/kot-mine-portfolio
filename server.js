@@ -25,10 +25,7 @@ app.listen(port, () =>
 
 app.post("/api/send_email", function(req, res) {
   let data = req.body;
-  console.log("data", data);
   res.set("Content-Type", "application/json");
-  res.send(`{"message" : "Thank you for your message"`);
-  res.end("ok");  
   
   const mailOptions = {
     from: "From My Kot-Webite <jin.bestvictoria718@gmail.com>",
@@ -44,5 +41,7 @@ app.post("/api/send_email", function(req, res) {
       console.log('Email sent: ' + info.response);
     }
   });
+  
+  res.end("ok");  
 
 });
