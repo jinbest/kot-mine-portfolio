@@ -14,8 +14,8 @@ app.set("view engine", "html");
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'jin.bestvictoria718@gmail.com',
-    pass: 'hheltfivgkqcasfi'
+    user: 'jinming9420@gmail.com',
+    pass: 'rokpjokmrqznywqi'
   }
 });
 
@@ -28,7 +28,7 @@ app.post("/api/send_email", function(req, res) {
   res.set("Content-Type", "application/json");
   
   const mailOptions = {
-    from: "From My Kot-Webite <jin.bestvictoria718@gmail.com>",
+    from: "From My Kot-Webite <jinming9420@gmail.com>",
     to: 'jin.bestvictoria718@gmail.com',
     subject: data.subject,
     text: JSON.stringify(data)
